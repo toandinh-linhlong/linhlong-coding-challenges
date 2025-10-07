@@ -1,32 +1,64 @@
-# A Simple ERP System
+# Linh Long Coding Challenge: Simple ERP System
 
-## Overview
+## 🌟 Overview
+Welcome to the Linh Long coding challenge! First of all, thank you for taking the time to participate. We see this challenge as a mutual opportunity — for you to showcase your skills, and for us to explore how well we can work together.
 
-Welcome to Linh Long coding challenge. First of all, we want to thank you for taking time with us. Please treat this challenge as a way to show us your skills, so that we can see if we can make each other. Here are the requirements:
+This assignment focuses on building a simplified ERP system using modern technologies. Please treat it as a real-world task, and feel free to demonstrate your best practices in architecture, coding, and documentation.
 
-1. **User Authentication and Authorization**:
- - Users can login to the system with their password.
- - The password should have at least 12 characters, with at least 1 upper case character and 1 special character.
- - Users cannot input wrong passwords 5 times consecutively.
- - Users don't need to re-input username and password the next time they access the system.
- - After logging in, system shows which Role the user has.
+---
 
-2. **Inventory List Management**:
-- Implement CRUD tasks for managing Inventory
-- Inventory has these attributes: Name, Description, Color, Type , Suppliers, Manufacturers.
-- Users with Viewer Role can only view the data, while users with Editor Role can edit/delete the items.
+## 🧩 Requirements
 
-You are asked to implement one of the above requirements.
+### 1. User Authentication & Authorization
+- Users must be able to log in using a secure password.
+- Password policy:
+  - Minimum 12 characters
+  - At least 1 uppercase letter
+  - At least 1 special character
+- Lockout after 5 consecutive failed login attempts.
+- Implement persistent login (e.g., via refresh tokens or cookies).
+- After login, display the user's assigned **Role** (e.g., Viewer, Editor).
 
-## Acceptant Criteria: 
-### A Word document, includes:
-- **Architecture Diagram**: Create an architecture diagram illustrating component interactions (server, client apps, database, etc.).
-- **Component Description**:  Describe each component's role.
-- **Data Flow**: Explain how data flows through the system for the requirement you implement.
+### 2. Inventory Management
+- Implement full **CRUD** operations for inventory items.
+- Inventory attributes:
+  - Name
+  - Description
+  - Color
+  - Type
+  - Suppliers
+  - Manufacturers
+- Role-based access:
+  - **Viewer**: Can view inventory data only.
+  - **Editor**: Can create, update, and delete inventory items.
 
-### A working system, which should: 
-- Use .Net Core, ReactJS, Typescript and MSSQL
-- The source code should be well-documented
+---
 
-### Submission time: 1 week. 
+## 🎯 Implementation Scope
+You are required to implement **one** of the above two modules (Authentication or Inventory Management). Choose the one that best showcases your strengths.
 
+---
+
+## ✅ Acceptance Criteria
+
+### 📄 Documentation (Word or PDF)
+- **Architecture Diagram**: Visualize the system components (e.g., client, server, database).
+- **Component Descriptions**: Briefly explain the role of each major component.
+- **Data Flow Explanation**: Describe how data moves through the system for the module you implemented.
+
+### 💻 Working System
+- Tech stack:
+  - **Backend**: .NET Core
+  - **Frontend**: ReactJS + TypeScript
+  - **Database**: MSSQL
+- Code should be:
+  - Well-structured and modular
+  - Clearly documented
+  - Easy to set up and run
+
+---
+
+## 📅 Submission Deadline
+- **Timeframe**: 1 week from the date you receive this challenge.
+
+Good luck, and we look forward to seeing your solution!
