@@ -1,4 +1,4 @@
-#A Simple ERP System
+# A Simple ERP System
 
 ## Overview
 
