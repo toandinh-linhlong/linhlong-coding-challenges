@@ -50,7 +50,7 @@ You are required to implement **one** of the above two modules (Authentication o
 - Tech stack:
   - **Backend**: .NET Core
   - **Frontend**: ReactJS + TypeScript
-  - **Database**: MSSQL
+  - **Database**: SQL Lite
 - Code should be:
   - Well-structured and modular
   - Clearly documented
