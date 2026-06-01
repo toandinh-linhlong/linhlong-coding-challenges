@@ -15,9 +15,10 @@ This assignment focuses on building a simplified ERP system using modern technol
   - Minimum 12 characters
   - At least 1 uppercase letter
   - At least 1 special character
-- Lockout after 5 consecutive failed login attempts.
-- Implement persistent login (e.g., via refresh tokens or cookies).
 - After login, display the user's assigned **Role** (e.g., Viewer, Editor).
+- Implement persistent login (e.g., via refresh tokens or cookies).
+- Lockout after 5 consecutive failed login attempts.
+- When the account is locked, all devices are forced to log out
 
 ### 2. Inventory Management
 - Implement full **CRUD** operations for inventory items.
